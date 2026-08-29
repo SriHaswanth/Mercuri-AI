@@ -34,6 +34,7 @@ A full-stack MERN application with manual and natural language slot booking powe
 - OpenRouter API Key
 
 ### Project Structure
+```text
 
 bookings-app/
 ├── backend/
@@ -59,6 +60,7 @@ bookings-app/
 │   │   └── index.js
 │   └── package.json
 └── README.txt
+```
 
 
 ## GETTING STARTED
