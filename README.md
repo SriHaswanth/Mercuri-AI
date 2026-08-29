@@ -29,25 +29,45 @@ A full-stack MERN application with manual and natural language slot booking powe
 * OpenRouter API Key
 
 bookings-app/
+
   ---backend/
+  
       -models/
+      
         Slot.js
+        
       -routes/
+      
         agent.js/bookings.js/slots.js
+        
       -services/
+      
         aiService.js
+        
       -tests/
+      
         booking.test.js
+        
       -package.json
+      
       -seed.js
+      
       -server.js
+      
     ---frontend/
+    
       -public/
+      
         index.html
+        
       -src/
+      
         App.css/App.js/index.js
+        
       -ackage.json
+      
 README.txt
+
 
 ## GETTING STARTED
 
