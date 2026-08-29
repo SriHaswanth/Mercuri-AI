@@ -20,6 +20,14 @@ A full-stack MERN application with manual and natural language slot booking powe
 
 ## PROJECT STRUCTURE
 
+
+
+## PREREQUISITES
+
+* Node.js (v18 or higher)
+* MongoDB Atlas connection string or local MongoDB instance (mongodb://127.0.0.1:27017/bookings_db)
+* OpenRouter API Key
+
 bookings-app/
 |-- backend/
 |   |-- models/
@@ -34,14 +42,6 @@ bookings-app/
 |   |   |-- App.js
 |   |   `-- index.js |   `-- package.json
 `-- README.txt
-
-## PREREQUISITES
-
-* Node.js (v18 or higher)
-* MongoDB Atlas connection string or local MongoDB instance (mongodb://127.0.0.1:27017/bookings_db)
-* OpenRouter API Key
-
-
 
 ## GETTING STARTED
 
