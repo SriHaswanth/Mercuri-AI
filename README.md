@@ -28,45 +28,37 @@ A full-stack MERN application with manual and natural language slot booking powe
 * MongoDB Atlas connection string or local MongoDB instance (mongodb://127.0.0.1:27017/bookings_db)
 * OpenRouter API Key
 
-bookings-app/
+### Prerequisites
+- Node.js (v18 or higher)
+- MongoDB Atlas connection string or local MongoDB instance
+- OpenRouter API Key
 
-  ---backend/
-  
-      -models/
-      
-        Slot.js
-        
-      -routes/
-      
-        agent.js/bookings.js/slots.js
-        
-      -services/
-      
-        aiService.js
-        
-      -tests/
-      
-        booking.test.js
-        
-      -package.json
-      
-      -seed.js
-      
-      -server.js
-      
-    ---frontend/
-    
-      -public/
-      
-        index.html
-        
-      -src/
-      
-        App.css/App.js/index.js
-        
-      -ackage.json
-      
-README.txt
+### Project Structure
+
+bookings-app/
+├── backend/
+│   ├── models/
+│   │   └── Slot.js
+│   ├── routes/
+│   │   ├── agent.js
+│   │   ├── bookings.js
+│   │   └── slots.js
+│   ├── services/
+│   │   └── aiService.js
+│   ├── tests/
+│   │   └── booking.test.js
+│   ├── package.json
+│   ├── seed.js
+│   └── server.js
+├── frontend/
+│   ├── public/
+│   │   └── index.html
+│   ├── src/
+│   │   ├── App.css
+│   │   ├── App.js
+│   │   └── index.js
+│   └── package.json
+└── README.txt
 
 
 ## GETTING STARTED
